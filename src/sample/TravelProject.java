@@ -15,7 +15,8 @@ public class TravelProject {
         System.setProperty("webdriver.chrome.driver",
                 "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+       
+ driver.manage().window().maximize();
         driver.get("https://www.easyjet.com/tr");
         Thread.sleep(5000);
         driver.findElement(By.id("ensCloseBanner")).click();
