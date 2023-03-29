@@ -27,6 +27,7 @@ public class TravelProject {
 
         for (WebElement origin : origins) {
             System.out.println(origin.getText());
+
         }
     }
 }
